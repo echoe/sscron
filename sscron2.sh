@@ -1,7 +1,7 @@
 #This installs and starts sys-snap2, changes the interval, and sets up a cronjob.
 #Version 0.09 (centos 5 is not supported)
 if [[ `cat /etc/redhat-release | cut -d" " -f3 | cut -d "." -f1` == "5" ]]; then 
-    echo "This does not support CentOS5. If you want, you can try bash <(curl http://github.com/echoe/edit/sscroncp.sh)"
+    echo "This does not support CentOS5. If you want, you can try bash <(curl https://raw.githubusercontent.com/echoe/sscron/master/sscroncp.sh)"
     exit 1; 
 fi
 
